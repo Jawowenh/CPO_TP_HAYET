@@ -21,7 +21,7 @@ public class TP1_stats_Hayet {
     public static void main(String[] args) {
       int[] tableauDes = new int[6]; // Crée un tableau de 6 entiers avec chaque cases égale à 0
         Scanner sc = new Scanner(System.in);
-        System.out.print("Saisissez un nombre entier m : ");
+        System.out.print("Saisissez un nombre entier x : ");
         int x = sc.nextInt(); // création de l'entier m par l'utilisateur
         Random generateurAleat = new Random();
         for (int i = 0 ; i < x ; i++){
@@ -30,7 +30,7 @@ public class TP1_stats_Hayet {
         }
         System.out.println("Résultats des lancers en pourcentage :");
         for (int i = 0; i < tableauDes.length; i++) {
-            double pourcentage = tableauDes[i] * 100 / m;
+            double pourcentage = tableauDes[i] * 100 / x;
             System.out.println("Face " + (i + 1) + ": " + pourcentage + "%");
         }
     }
