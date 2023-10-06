@@ -1,7 +1,7 @@
 /*
   * Nom: Hayet Owen
  *Groupe :TDC
- * Role: convertisseur
+ *Role: stats
  * date Septembre 2023
  */
 package tp1_stats_hayet;
