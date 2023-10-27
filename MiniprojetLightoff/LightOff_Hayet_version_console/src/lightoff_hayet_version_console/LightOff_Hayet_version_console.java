@@ -34,4 +34,9 @@ public class LightOff_Hayet_version_console {
         } else {
             System.out.println("La cellule 2 est allumée.");    }
     
-}}
+      Partie objet = new Partie(5,5);
+      objet.initialiserPartie();
+      objet.LancerPartie();
+    }
+
+}

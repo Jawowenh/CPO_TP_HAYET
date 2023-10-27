@@ -58,6 +58,10 @@ boolean etat;
     @Override
     public String toString() {
         // Redéfinition de la méthode toString pour afficher l'état de la cellule
-        return etat ? "X" : "O";
+    if (etat) {
+        return "X";
+    } else {
+        return "O";
     }
+}
 }
