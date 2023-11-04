@@ -14,7 +14,7 @@ public class LightOff_Hayet_version_console {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        CelluleLumineuse cellule1 = new CelluleLumineuse();
+        CelluleLumineuses cellule1 = new CelluleLumineuses();
         System.out.println("État initial de la cellule 1 : " + cellule1);
 
         cellule1.activerCellule();
@@ -23,7 +23,7 @@ public class LightOff_Hayet_version_console {
         cellule1.eteindreCellule();
         System.out.println("Après extinction de la cellule 1 : " + cellule1);
 
-        CelluleLumineuse cellule2 = new CelluleLumineuse();
+        CelluleLumineuses cellule2 = new CelluleLumineuses();
         System.out.println("État initial de la cellule 2 : " + cellule2);
 
         cellule2.activerCellule();
